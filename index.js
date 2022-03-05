@@ -77,7 +77,7 @@ app.post('/startmint', async (req, res) => {
     }
 })
 
-app.listen(3300, () => {
+app.listen(8080, () => {
     console.log("server started");
 })
 
